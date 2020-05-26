@@ -1,43 +1,128 @@
-{% extends "base.html" %}
-{% load static %}
-{% block content %}
-  
-    <!-- banner part start-->
-    <section class="banner_part">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-5 col-xl-5">
-                    <div class="banner_text">
-                        <div class="banner_text_iner">
-                            <h5>We are here for your care</h5>
-                            <h1>The greatest Wealth is Health 
-                            </h1>
-                            <p>Start where you are & 
-                        Use what you have &
-                                Do what you can
-                            Mindset offers the best doctors that can turn your mood  from bitter to better. </p>
-                            <a href="#" class="btn_2">Make an appointment</a>
+<!doctype html>
+<html lang="en">
 
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>medical</title>
+    <link rel="icon" href="img/favicon.png">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- animate CSS -->
+    <link rel="stylesheet" href="css/animate.css">
+    <!-- owl carousel CSS -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <!-- themify CSS -->
+    <link rel="stylesheet" href="css/themify-icons.css">
+    <!-- flaticon CSS -->
+    <link rel="stylesheet" href="css/flaticon.css">
+    <!-- magnific popup CSS -->
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <!-- nice select CSS -->
+    <link rel="stylesheet" href="css/nice-select.css">
+    <!-- swiper CSS -->
+    <link rel="stylesheet" href="css/slick.css">
+    <!-- style CSS -->
+    <link rel="stylesheet" href="css/style.css">
+<script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=LPRBsUGhJ0IM949c6sro81wR78MSWauIkn3EB1huLSUXLRRADHj79djTkDNpWqq-t-KyZGUrVggWvTlMERg4OZQ_MKp4EreuRjMcEdhNi7lPJvFXbgQLY25T1_g5ha0sUMb5_Ojnt0kuqYutyHjpGyVZhHwAfohWCVozhLzTNbPv1dfHwqMEUTuZG1-VyfW9RSjltIzNxwrR8mJaFilkTss8UMB2U2ocGRy9EJr7-W0bvZsgqK3gt1TIsnFM8k7x4UZH0Agf61PDHSbflVFaRL74U4-JQRTuINyo5SO-vKQSzIhsb0cCYbHrraVT5hGZVzimE2FCJ3WWensHOMxon9g0jIQseyTtKIoDpmCfIY_Xt5IGbvKkPLTgV6Y8TK1kAROJDipGTPpT-IKYSNVBZS9X4TXyvTS3ptWMLDwKt9yf_BtD2KIVEDc7-HAUWQCWHRkQpkyH5aL5ijyaA5dnYPPza7MYFCu-jzmYqAo2XG8" charset="UTF-8"></script><link rel="stylesheet" crossorigin="anonymous" href="https://gc.kis.v2.scr.kaspersky-labs.com/E3E8934C-235A-4B0E-825A-35A08381A191/abn/main.css?attr=aHR0cHM6Ly9kb2MtMGMtN2MtZG9jcy5nb29nbGV1c2VyY29udGVudC5jb20vZG9jcy9zZWN1cmVzYy9yZGhiNXVhNmtjbGNqdDlmZTdrdnQ4YW1tcmJ1ZmgzMi9xM2pma2h0bnNpaDNuMGtpNWxhOXYyam02YmR2bGRxcC8xNTkwNDk1NjAwMDAwLzEyNTE2NjYxNDI0OTM0NTM3MTMyLzE2OTcxNTEwMzUzODk5OTMxODE1LzEwM2lQTDdnYldXNzRPQkZxUUpjb3JHVFBiV2pBbHVOej9lPWRvd25sb2FkJmg9MTE4NTM0NDA0NTQxNTQ4MTExODQmYXV0aHVzZXI9MCZub25jZT1kcjk3ajY4djE2NWdlJnVzZXI9MTY5NzE1MTAzNTM4OTk5MzE4MTUmaGFzaD1kOWdyajUyZWVmdDE3cWY3Y3JuYTFvajR0bWF0c2NpcQ"/></head>
+
+<body>
+            <!--::header part start::-->
+            <header class="main_menu">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-12">
+                            <nav class="navbar navbar-expand-lg navbar-light">
+                                <a class="navbar-brand" href="index.html"> <img src="img/logo.png" width="100px" height="100px" alt="logo"> </a>
+                                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                    aria-expanded="false" aria-label="Toggle navigation">
+                                    <span class="navbar-toggler-icon"></span>
+                                </button>
+        
+                                <div class="collapse navbar-collapse main-menu-item justify-content-center"
+                                    id="navbarSupportedContent">
+                                    <ul class="navbar-nav align-items-center">
+                                        <li class="nav-item active">
+                                            <a class="nav-link" href="index.html">Home</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="about.html">about</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="Doctor.html">Doctors</a>
+                                        </li>
+        
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle" href="blog.html" id="navbarDropdown"
+                                                role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                Pages
+                                            </a>
+                                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                                <a class="dropdown-item" href="services.html">services</a>
+                                                <a class="dropdown-item" href="dep.html">depertments</a>
+                                                <a class="dropdown-item" href="elements.html">Elements</a>
+                                            </div>
+                                        </li>
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle" href="blog.html" id="navbarDropdown_1"
+                                                role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                Blog
+                                            </a>
+                                            <div class="dropdown-menu" aria-labelledby="navbarDropdown_1">
+                                                <a class="dropdown-item" href="blog.html">articles</a>
+                                                <a class="dropdown-item" href="single-blog.html">Shared stories</a>
+                                            </div>
+                                        </li>
+        
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="contact.html">Contact</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <a class="btn_2 d-none d-lg-block" href="#">Sign in</a>
+                            </nav>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-7">
-                    <div class="banner_img">
-                        <img src="{%static 'img/main.jpg'%}" alt="">
+            </header>
+            <!-- Header part end-->
+
+        <!-- banner part start-->
+        <section class="banner_part">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-5 col-xl-5">
+                        <div class="banner_text">
+                            <div class="banner_text_iner">
+                                <h5>We are here for your care</h5>
+                                <h1>Best Care &
+                                    Better Doctor</h1>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing
+                                    elit sed do eiusmod tempor incididunt ut labore et dolore
+                                    magna aliqua. Quis ipsum suspendisse ultrices gravida.Risus cmodo viverra </p>
+                                <a href="#" class="btn_2">Make an appointment</a>
+    
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-7">
+                        <div class="banner_img">
+                            <img src="img/banner_img.jpg" alt="">
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <!-- banner part start-->
-
+        </section>
+        <!-- banner part start-->
     <!-- about us part start-->
     <section class="about_us padding_top">
         <div class="container">
             <div class="row justify-content-between align-items-center">
                 <div class="col-md-6 col-lg-6">
                     <div class="about_us_img">
-                        <img src="{%static 'img/top_service.png'%}" alt="">
+                        <img src="img/top_service.png" alt="">
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-5">
@@ -49,15 +134,15 @@
                         <a class="btn_2 " href="#">learn more</a>
                         <div class="banner_item">
                             <div class="single_item">
-                                <img src="{%static 'img/icon/banner_1.svg'%}" alt="">
+                                <img src="img/icon/banner_1.svg" alt="">
                                 <h5>Emergency</h5>
                             </div>
                             <div class="single_item">
-                                <img src="{%static 'img/icon/banner_2.svg'%}" alt="">
+                                <img src="img/icon/banner_2.svg" alt="">
                                 <h5>Appointment</h5>
                             </div>
                             <div class="single_item">
-                                <img src="{%static 'img/icon/banner_3.svg'%}" alt="">
+                                <img src="img/icon/banner_3.svg" alt="">
                                 <h5>Qualfied</h5>
                             </div>
                         </div>
@@ -82,14 +167,14 @@
                 <div class="col-lg-3 col-sm-12">
                     <div class="single_feature">
                         <div class="single_feature_part">
-                            <span class="single_feature_icon"><img src="{%static 'img/icon/feature_1.svg'%}" alt=""></span>
+                            <span class="single_feature_icon"><img src="img/icon/feature_1.svg" alt=""></span>
                             <h4>Activities</h4>
                             <p>Many activities are waiting you. Booking , sport recommendations,Healthy Food ,inspirations and motivations.<br> You will never regret exploring it <br> please enjoy it.</p>
                         </div>
                     </div>
                     <div class="single_feature">
                         <div class="single_feature_part">
-                            <span class="single_feature_icon"><img src="{%static 'img/icon/feature_2.svg'%}" alt=""></span>
+                            <span class="single_feature_icon"><img src="img/icon/feature_2.svg" alt=""></span>
                             <h4>Duas and Reminders </h4>
                             <p>There nothing better than being close to Allah to have a good mood.</p>
                         </div>
@@ -97,20 +182,20 @@
                 </div>
                 <div class="col-lg-4 col-sm-12">
                         <div class="single_feature_img">
-                            <img src="{%static 'img/service.png'%}" alt="">
+                            <img src="img/service.png" alt="">
                         </div>
                 </div>
                 <div class="col-lg-3 col-sm-12">
                     <div class="single_feature">
                         <div class="single_feature_part">
-                            <span class="single_feature_icon"><img src="{%static 'img/icon/feature_1.svg'%}" alt=""></span>
+                            <span class="single_feature_icon"><img src="img/icon/feature_1.svg" alt=""></span>
                             <h4>Meet with the best doctors</h4>
                             <p>Because your health is our perties ,we collect to you the best doctors</p>
                         </div>
                     </div>
                     <div class="single_feature">
                         <div class="single_feature_part">
-                            <span class="single_feature_icon"><img src="{%static 'img/icon/feature_2.svg'%}" alt=""></span>
+                            <span class="single_feature_icon"><img src="img/icon/feature_2.svg" alt=""></span>
                             <h4>Share your exprience</h4>
                             <p>Sharing is giving , Give to get. awesome people are hard to find.</p>
                         </div>
@@ -137,7 +222,7 @@
                 <div class="col-sm-6 col-lg-3">
                     <div class="single_blog_item">
                         <div class="single_blog_img">
-                            <img src="{%static 'img/doctor/doctor_1.png'%}" alt="doctor">
+                            <img src="img/doctor/doctor_1.png" alt="doctor">
                             <div class="social_icon">
                                 <ul>
                                     <li><a href="#"> <i class="ti-facebook"></i> </a></li>
@@ -150,7 +235,7 @@
                         <div class="single_text">
                             <div class="single_blog_text">
                                 <h3>DR Adam Billiard</h3>
-                                <p>Heart specialist</p>
+                                
                             </div>
                         </div>
                     </div>
@@ -158,7 +243,7 @@
                 <div class="col-sm-6 col-lg-3">
                     <div class="single_blog_item">
                         <div class="single_blog_img">
-                            <img src="{%static 'img/doctor/doctor_4.png'%}" alt="doctor">
+                            <img src="img/doctor/doctor_4.png" alt="doctor">
                             <div class="social_icon">
                                 <ul>
                                     <li><a href="#"> <i class="ti-facebook"></i> </a></li>
@@ -171,7 +256,7 @@
                         <div class="single_text">
                             <div class="single_blog_text">
                                 <h3>DR Adam Billiard</h3>
-                                <p>Medicine specialist</p>
+                                
                             </div>
                         </div>
                     </div>
@@ -179,7 +264,7 @@
                 <div class="col-sm-6 col-lg-3">
                     <div class="single_blog_item">
                         <div class="single_blog_img">
-                            <img src="{%static 'img/doctor/doctor_2.png'%}" alt="doctor">
+                            <img src="img/doctor/doctor_2.png" alt="doctor">
                             <div class="social_icon">
                                 <ul>
                                     <li><a href="#"> <i class="ti-facebook"></i> </a></li>
@@ -192,7 +277,6 @@
                         <div class="single_text">
                             <div class="single_blog_text">
                                 <h3>DR Fred Macyard</h3>
-                                <p>CHeart specialist</p>
                             </div>
                         </div>
                     </div>
@@ -200,7 +284,7 @@
                 <div class="col-sm-6 col-lg-3">
                     <div class="single_blog_item">
                         <div class="single_blog_img">
-                            <img src="{%static 'img/doctor/doctor_3.png'%}" alt="doctor">
+                            <img src="img/doctor/doctor_3.png" alt="doctor">
                             <div class="social_icon">
                                 <ul>
                                     <li><a href="#"> <i class="ti-facebook"></i> </a></li>
@@ -213,7 +297,7 @@
                         <div class="single_text">
                             <div class="single_blog_text">
                                 <h3>DR Justin Stuard</h3>
-                                <p>Heart specialist</p>
+                                
                             </div>
                         </div>
                     </div>
@@ -223,64 +307,155 @@
     </section>
     <!--::doctor_part end::-->
 
-    <!--::regervation_part start::-->
-    <section class="regervation_part section_padding">
-        <div class="container">
-            <div class="row align-items-center regervation_content">
-                <div class="col-lg-7">
-                    <div class="regervation_part_iner">
-                        <form>
-                            <h2>Make an Appointment</h2>
-                            <div class="form-row">
-                                <div class="form-group col-md-6">
-                                    <input type="email" class="form-control" id="inputEmail4" placeholder="Name">
-                                </div>
-                                <div class="form-group col-md-6">
-                                    <input type="password" class="form-control" id="inputPassword4"
-                                        placeholder="Email address">
-                                </div>
-                                <div class="form-group col-md-6">
-                                    <select class="form-control" id="Select">
-                                        <option value="1" selected>Select service</option>
-                                        <option value="2">Name of service</option>
-                                        <option value="3">Name of service</option>
-                                        <option value="4">Name of service</option>
-                                        <option value="5">Name of service</option>
-                                    </select>
-                                </div>
-                                <div class="form-group time_icon col-md-6">
-                                    <select class="form-control" id="Select2">
-                                        <option value="" selected>Time</option>
-                                        <option value="1">8 AM TO 10AM</option>
-                                        <option value="1">10 AM TO 12PM</option>
-                                        <option value="1">12PM TO 2PM</option>
-                                        <option value="1">2PM TO 4PM</option>
-                                        <option value="1">4PM TO 6PM</option>
-                                        <option value="1">6PM TO 8PM</option>
-                                        <option value="1">4PM TO 10PM</option>
-                                        <option value="1">10PM TO 12PM</option>
-                                    </select>
-                                </div>
-                                <div class="form-group col-md-12">
-                                    <textarea class="form-control" id="Textarea" rows="4"
-                                        placeholder="Your Note "></textarea>
-                                </div>
+<!--::regervation_part start::-->
+<section class="regervation_part section_padding">
+    <div class="container">
+        <div class="row align-items-center regervation_content">
+            <div class="col-lg-7">
+                <div class="regervation_part_iner">
+                    <form>
+                        <h2>Make an Appointment</h2>
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <input type="email" class="form-control" id="inputEmail4" placeholder="Name">
                             </div>
-                            <div class="regerv_btn">
-                                <a href="#" class="btn_2">Make an Appointment</a>
+                            <div class="form-group col-md-6">
+                                <input type="password" class="form-control" id="inputPassword4"
+                                    placeholder="Email address">
                             </div>
-                        </form>
-                    </div>
+                            <div class="form-group col-md-6">
+                                <select class="form-control" id="Select">
+                                    <option value="1" selected>Select appointement type</option>
+                                    <option value="2">Remote</option>
+                                    <option value="3">Face to face</option>
+                                </select>
+                            </div>
+                            <div class="form-group time_icon col-md-6">
+                                <select class="form-control" id="Select2">
+                                    <option value="" selected>Time</option>
+                                    <option value="1">8 AM TO 10AM</option>
+                                    <option value="1">10 AM TO 12PM</option>
+                                    <option value="1">12PM TO 2PM</option>
+                                    <option value="1">2PM TO 4PM</option>
+                                    <option value="1">4PM TO 6PM</option>
+                                    <option value="1">6PM TO 8PM</option>
+                                    <option value="1">4PM TO 10PM</option>
+                                    <option value="1">10PM TO 12PM</option>
+                                </select>
+                            </div>
+                            <div class="form-group col-md-12">
+                                <textarea class="form-control" id="Textarea" rows="4"
+                                    placeholder="Your Note "></textarea>
+                            </div>
+                        </div>
+                        <div class="regerv_btn">
+                            <a href="Merci.html" class="btn_2">Make an Appointment</a>
+                        </div>
+                    </form>
                 </div>
-                <div class="col-lg-5 col-md-6">
-                    <div class="reservation_img">
-                        <img src="{%static 'img/reservation.png'%}" alt="" class="reservation_img_iner">
+            </div>
+            <div class="col-lg-5 col-md-6">
+                <div class="reservation_img">
+                    <img src="img/reservation.png" alt="" class="reservation_img_iner">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--::regervation_part end::-->
+
+
+
+    <!-- footer part start-->
+    <footer class="footer-area">
+        <div class="footer section_padding">
+            <div class="container">
+                <div class="row justify-content-between">
+                    <div class="col-xl-2 col-md-4 col-sm-6 single-footer-widget">
+                        <a href="#" class="footer_logo"> <img src="img/Logo.png" width="100px" height="100px" alt="#"> </a>
+                        <p>This website is made with love and charity by Soldiers  </p>
+                        <div class="social_logo">
+                            <a href="#"><i class="ti-facebook"></i></a>
+                            <a href="#"> <i class="ti-twitter"></i> </a>
+                            <a href="#"><i class="ti-instagram"></i></a>
+                            <a href="#"><i class="ti-skype"></i></a>
+                        </div>
+                    </div>
+                   
+                    <div class="col-xl-2 col-sm-6 col-md-4 single-footer-widget">
+                        <h4>Explore</h4>
+                        <ul>
+                            <li><a href="Doctor.html">Exprienced doctors</a></li>
+                            <li><a href="about.html">About us</a></li>
+                            <li><a href="articles.html">Articles </a></li>
+                            <li><a href="Activities.html">Activities</a></li>
+                            <li><a href="services.html">Our services</a></li>
+                        </ul>
+                    </div>
+                 
+                    <div class="col-xl-3 col-sm-6 col-md-6 single-footer-widget">
+                        <h4>Newsletter</h4>
+                        <p>Help us with your opinion.</p>
+                        <div class="form-wrap" id="mc_embed_signup">
+                            <form target="_blank"
+                                action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01"
+                                method="get" class="form-inline">
+                                <input class="form-control" name="EMAIL" placeholder="Your Email Address"
+                                    onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your Email Address '"
+                                    required="" type="email">
+                                <button class="click-btn btn btn-default text-uppercase"> <i class="ti-angle-right"></i>
+                                </button>
+                                <div style="position: absolute; left: -5000px;">
+                                    <input name="b_36c4fd991d266f23781ded980_aefe40901a" tabindex="-1" value=""
+                                        type="text">
+                                </div>
+
+                                <div class="info"></div>
+                            </form>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
-    <!--::regervation_part end::-->
 
+        <div class="copyright_part">
+            <div class="container">
+                <div class="row align-items-center">
+                    <p class="footer-text m-0 col-lg-8 col-md-12"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved to Soldiers</a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+</p>
+                    <div class="col-lg-4 col-md-12 text-center text-lg-right footer-social">
+                        <a href="#"><i class="ti-facebook"></i></a>
+                        <a href="#"> <i class="ti-twitter"></i> </a>
+                        <a href="#"><i class="ti-instagram"></i></a>
+                        <a href="#"><i class="ti-skype"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
 
-    {% endblock content %}
+    <!-- footer part end-->
+
+    <!-- jquery plugins here-->
+
+    <script src="js/jquery-1.12.1.min.js"></script>
+    <!-- popper js -->
+    <script src="js/popper.min.js"></script>
+    <!-- bootstrap js -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- owl carousel js -->
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.nice-select.min.js"></script>
+    <!-- contact js -->
+    <script src="js/jquery.ajaxchimp.min.js"></script>
+    <script src="js/jquery.form.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/mail-script.js"></script>
+    <script src="js/contact.js"></script>
+    <!-- custom js -->
+    <script src="js/custom.js"></script>
+</body>
+
+</html>
